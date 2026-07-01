@@ -1,0 +1,6 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+
+# Dependency dirs (none needed for this static site)
+node_modules/

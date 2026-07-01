@@ -4,3 +4,6 @@ Thumbs.db
 
 # Dependency dirs (none needed for this static site)
 node_modules/
+
+.vercel
+.env*

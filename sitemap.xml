@@ -6,17 +6,22 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://earnscroll.com/privacy-policy/</loc>
+    <loc>https://earnscroll.com/privacy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://earnscroll.com/terms-of-service/</loc>
+    <loc>https://earnscroll.com/terms</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://earnscroll.com/support/</loc>
+    <loc>https://earnscroll.com/delete-account</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://earnscroll.com/support</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -8,13 +8,18 @@ Zero build step, zero framework, zero backend — just HTML, CSS, and a sprinkle
 | URL | File |
 |-----|------|
 | `/` | `index.html` |
-| `/privacy-policy/` | `privacy-policy/index.html` |
-| `/terms-of-service/` | `terms-of-service/index.html` |
-| `/support/` | `support/index.html` |
+| `/privacy` | `privacy.html` |
+| `/terms` | `terms.html` |
+| `/delete-account` | `delete-account.html` |
+| `/support` | `support.html` |
 | `404` | `404.html` |
 
-The legal pages are plain pre-rendered HTML and work with JavaScript disabled — safe to submit
-as the Privacy Policy / Terms URLs in Google Play Console.
+Clean URLs (no `.html`, no trailing slash) are configured via `vercel.json` (`cleanUrls: true`,
+`trailingSlash: false`). `/privacy-policy` and `/terms-of-service` 301-redirect to the new paths.
+
+The canonical URLs `/privacy`, `/terms`, and `/delete-account` match `WEB_LEGAL_URLS` in the app's
+`constants/legal.ts` and are the ones submitted to Google Play Console. The legal pages are plain
+pre-rendered HTML and work with JavaScript disabled.
 
 ## Local preview
 
